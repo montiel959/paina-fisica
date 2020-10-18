@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin:0px;   
+}
+header{
+    width: 100%;
+    background-color: silver;
+    box-shadow: 1px 1px 5px black;
+    height: 50px;
+}
+#menu 
+{
+    width: 700px;
+    padding-top:-10px;
+    margin: auto;
+}
+#menu ul a 
+{
+    color: black;
+    text-decoration:none;
+    font:bold 15px Comic Sans MS;
+    padding:12px 20px 12px 20px;
+    background: transparent;
+    border-bottom: 9px solid transparent;
+    transition: border-bottom .7s;
+   -webkit-transition: border-bottom .7s;
+    -moz-transition: border-bottom .7s;
+    -o-transition: border-bottom .7s;
+}
+#menu ul a:hover {
+    border-bottom: 6px solid #6e6e6e;
+}
+.uno{
+    text-transform: capitalize;
+    
+    font-family:Comic Sans MS;
+    text-align: center;
+    font-size: 25px;
+    border: 20px solid wheat;
+    margin: auto;
+    padding: 20px;
+}
+.uno {
+    text-decoration: none;
+    color:wheat;
+    font-size: 18px;
+    font-family: Comic Sans MS;
+  }
+.uno:hover {
+      color: red;
+  }
+.uno {
+    transition: color 0.8s linear .2s d;
+}
+.dos
+{
+    border: 20px inset silver;
+}
+.dos {
+    transition: width 2s, height2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.dos:hover{
+    transform : scale(1.5);
+    -moz-transform : scale(1.5);      /* Firefox */
+    -webkit-transform : scale(1.5);   /* Chrome - Safari */
+    -o-transform : scale(1.5);
+}
+.tres
+{
+    color: white;
+    font-family: Comic Sans MS;
+    text-align: justify;
+    font-size: 20px;
+    text-align: center;
+}
+.cuatro
+{
+    text-align: center;
+}
+
+p
+{
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 22px;
+    text-align: justify;
+}
+video{
+    border-radius: 40px;
+}
+
